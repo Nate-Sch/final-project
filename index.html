@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- Bootstrap Stylesheet-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Animal Photography</title>
+  </head>
+  <body>
+    <header>
+        <h1>Animal Photography</h1>
+    </header>
+    <nav>
+      <ul>
+          <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+
+  <main>
+
+    <div class="gallery">
+
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="home-hero">
+          </div>
+          <blockquote>
+            <p>The website features photographs of animals from Pixabay.com. The key to animal photography is patience. It can take a long time to get the right lighting and the best view of the animal. When photographing animals, you do not have a lot of control...you need to wait for them.  </p>
+            </p>
+          </blockquote>
+          <div class="preview">
+              <img id="preview" src="images/adler.jpg" alt="Adler"  height="800" width="600"/>
+          </div>
+
+    <div class="gallery-thumbnails" >
+        <img onclick="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="images/adler.jpg" alt="Adler" height="800" width="600" />
+        <img onclick="document.getElementById('preview').src= document.getElementById('img2').src;" id="img2" src="images/bison.jpg" alt="Bison" height="800" width="600"  />
+        <img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="images/fallow.jpg" alt="Fallow" height="800" width="600" />
+        <img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="images/fox.jpg" alt="Fox" height="800" width="600" />
+        <img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" id="img5" src="images/frog.jpg" alt="Frog" height="800" width="600"  />
+        <img onclick="document.getElementById('preview').src = document.getElementById('img6').src;" id="img6" src="images/hedgehog.jpg" alt="Hedgehog" height="800" width="600" />
+        <img onclick="document.getElementById('preview').src = document.getElementById('img7').src;" id="img7" src="images/otter.jpg" alt="Otter" height="800" width="600" />
+        <img onclick="document.getElementById('preview').src = document.getElementById('img8').src;" id="img8" src="images/rabbit.jpg" alt="Rabbit" height="800" width="600" />
+        <img onclick="document.getElementById('preview').src = document.getElementById('img9').src;" id="img9" src="images/sheep.jpg" alt="Sheep" height="800" width="600" />
+        <img onclick="document.getElementById('preview').src = document.getElementById('img10').src;" id="img10" src="images/spider.jpg" alt="Spider" height="800" width="600" />
+        <img onclick="document.getElementById('preview').src = document.getElementById('img11').src;" id="img11" src="images/turtle.jpg" alt="Turtle" height="800" width="600" />
+    </div>
+</div>
+  </main>
+  <!--jQuery, Popper, and Bootstrap Javascript files-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>

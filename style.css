@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap');
+
+
+header{
+  color:Green;
+  background-color:;
+  font-family: 'Grenze Gotisch', cursive;
+  text-align: center;
+}
+h1{
+  font-family: 'Grenze Gotisch', cursive;
+   line-height: 100%;
+   font-size: 80px;
+}
+main{
+max-width: 1200px;
+margin: 0 auto;
+}
+p{
+  font-family: 'Titillium Web', sans-serif;
+}
+nav{
+  background-color:#90C7E3;
+  font-weight: bold;
+}
+p{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+}
+blockquote{
+  margin: 30px;
+}
+dt{
+  color: #000033;
+  font-weight: bold;
+}
+}
+footer{
+  font-size: .7em;
+  font-style: italic;
+  text-align: center;
+}
+body{
+  background-color: #FFFFFF;
+  font-family: Verdana, Arial, sans-serif;
+  color: #666666;
+}
+
+nav{
+  text-align: right;
+  background-color:LightGreen;
+  padding: 10px 5px 10px 20px;
+  border-style: solid;
+  border-color: black;
+}
+nav a{
+  text-decoration: none;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+nav a:link{
+  color: #000033;
+}
+  nav a:visited{
+
+     color: #344873;
+}
+  nav a:hover{
+    color: #ffffff;
+}
+  nav a:active{
+     color: #000000;
+}
+.home-hero{
+  background-position: center;
+  background-image:url(images/lizard.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+.gallery .preview{
+  display:block;margin:0 auto;
+    width:100%;
+    height:auto;
+}
+.gallery .gallery-thumbnails{
+  margin:0 auto;text-align:center;
+}
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+/* CSS for Tablets*/
+@media only screen and (max-width: 1024px){
+}
+/* CSS for Smartphones*/
+@media only screen and (max-width: 768px){
+}
