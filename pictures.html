@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Wildlife Image Gallery">
+    <meta name="author" content="Nathan Schlosser">
+    <!-- Bootstrap Stylesheet-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Backyard Wildlife</title>
+  </head>
+  <body>
+    <header>
+        <h1>Backyard Wildlife</h1>
+    </header>
+    <nav class="navbar navbar-expand-sm navbar-light bg-success">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="pictures.html">Pictures</a></li>
+          </ul>
+
+        </div>
+      </nav>
+
+      <main>
+
+        <div class="gallery">
+
+          <div class="row">
+          <div class="col-sm-12">
+            <div class="pic-hero">
+            </div>
+            <blockquote>
+              <p>Here is a variety of pictures taken throughout the years, mostly taken in the backyard. </p>
+              </p>
+            </blockquote>
+            <div class="preview">
+                <img id="preview" src="images/deer1.jpg" alt="Deer"  height="800" width="600"/>
+              </div>
+
+              <div class="gallery-thumbnails" >
+                <img onclick="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="images/deer1.jpg" alt="Deer" height="800" width="600" />
+                <img onclick="document.getElementById('preview').src= document.getElementById('img2').src;" id="img2" src="images/deer2.jpg" alt="Deer" height="800" width="600"  />
+                <img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="images/deer-night1.jpg" alt="Deer" height="800" width="600" />
+                <img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="images/deer-night2.jpg" alt="Deer" height="800" width="600" />
+                <img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" id="img5" src="images/deer-night3.jpg" alt="Deer" height="800" width="600" />
+                <img onclick="document.getElementById('preview').src = document.getElementById('img6').src;" id="img6" src="images/fish.jpg" alt="Fish" height="800" width="600" />
+                <img onclick="document.getElementById('preview').src = document.getElementById('img7').src;" id="img7" src="images/moth1.jpg" alt="Moth" height="800" width="600"  />
+                <img onclick="document.getElementById('preview').src = document.getElementById('img8').src;" id="img8" src="images/moth2.jpg" alt="Moth" height="800" width="600" />
+                <img onclick="document.getElementById('preview').src = document.getElementById('img9').src;" id="img9" src="images/moth3.jpg" alt="Moth" height="800" width="600" />
+                <img onclick="document.getElementById('preview').src = document.getElementById('img10').src;" id="img10" src="images/fox.jpg" alt="Fox" height="800" width="600" />
+                <img onclick="document.getElementById('preview').src = document.getElementById('img11').src;" id="img11" src="images/deer-baby.jpg" alt="Baby Deer" height="800" width="600" />
+              </div>
+            </div>
+          </div>
+        </main>
+  <!--jQuery, Popper, and Bootstrap Javascript files-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  </body>
+</html>
