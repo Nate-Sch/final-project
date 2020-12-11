@@ -73,14 +73,14 @@ nav a:link{
 }
 .home-hero{
   background-position: center;
-  background-image:url(images/dog.jpg);
+  background-image:url(images/dog.JPG);
   height: 400px;
   background-repeat: no-repeat;
   margin-top: 10px;
 }
 .pic-hero{
   background-position: center;
-  background-image:url(images/turkey.jpg);
+  background-image:url(images/turkey.JPG);
   height: 400px;
   background-repeat: no-repeat;
   margin-top: 10px;
